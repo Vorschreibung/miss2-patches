@@ -37,3 +37,10 @@ Building on Windows
  - Download [w64devkit-mini-for-patching.zip](https://github.com/FunkyFr3sh/petool/releases/latest/download/w64devkit-mini-for-patching.zip) ([.7z](https://github.com/FunkyFr3sh/petool/releases/latest/download/w64devkit-mini-for-patching.7z))
  - Extract `w64devkit-mini-for-patching.zip` to `C:\`
  - run `build.cmd`
+
+Building on macOS
+-----------------
+ - Install [petool](https://github.com/FunkyFr3sh/petool) from github (just have do download zip or clone repo then cd to the directory and type `make`, the generated binary directory should be added to your $PATH)
+ - brew install mingw-w64 nasm
+ - make or gmake
+ - unfortunately, it's still building it for windows but you can build it on mac anyway...
